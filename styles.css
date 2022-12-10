@@ -8,10 +8,10 @@ body {
 /* NAV */
 
 .navbar {
-    background-color: #f5fbff !important;
-    padding: 20px 20px 20px 0 !important;
-    max-width: 1920px !important;
-    margin: 0 auto !important;
+  background-color: #f5fbff !important;
+  padding: 20px 20px 20px 0 !important;
+  max-width: 1920px !important;
+  margin: 0 auto !important;
 }
 .navbar-collapse {
   position: relative !important;
@@ -57,63 +57,63 @@ body {
 
 /* SECTION 01 */
 .bio {
-    background-color: #f5fbff;
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1920px;
-    }
+  background-color: #f5fbff;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+}
 
 .bio span {
-    color: #000000;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding-top: 40px;
-    padding-bottom: 15px;
+  color: #000000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
 .bio h1 {
-    color: #000000;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 60px;
-    font-weight: 1000;
-    padding-top: 0;
-    padding-bottom: 40px;
+  color: #000000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+  padding-top: 0;
+  padding-bottom: 40px;
 }
 
 .bio img {
-    width: 500px;
-    padding: 0 20px;
+  width: 500px;
+  padding: 0 20px;
 }
 
 .bio h2 {
-    color: #000000;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    padding-top: 65px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+  color: #000000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 65px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .bio a {
-    display: inline-flex;
-    align-items: center;
-    background: #101126;
-    color: white;
-    text-decoration: none;
-    padding: 0 1.75rem;
-    height: 2.5rem;
-    border-radius: 1.75rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 0.800rem;
-    margin-bottom: 50px;
+  display: inline-flex;
+  align-items: center;
+  background: #101126;
+  color: white;
+  text-decoration: none;
+  padding: 0 1.75rem;
+  height: 2.5rem;
+  border-radius: 1.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 50px;
 }
 
 /* SECTION 02*/
@@ -151,17 +151,16 @@ body {
   padding: 80px 20px 0 20px !important;
 }
 
-
 #element1 p {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 40px;
   font-weight: 500;
 }
 
 #element2 h3 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
@@ -169,7 +168,7 @@ body {
 
 #element2 p {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -186,21 +185,21 @@ body {
 
 .phrase p {
   color: #ffffff;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
 .phrase h1 {
   color: #ffffff;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 40px;
   font-weight: 500;
 }
 
 .phrase aside {
   color: #ffffff;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-style: italic;
   font-size: 20px;
   font-weight: 400;
@@ -228,14 +227,15 @@ footer .foot-contact {
 
 footer .brayan {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 32px;
   font-weight: 500;
 }
 
-footer .email, .phone-num {
+footer .email,
+.phone-num {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -243,7 +243,8 @@ footer .email, .phone-num {
 footer .social-media {
   padding: 60px 0;
 }
-footer .social-media .bi, .email{
+footer .social-media .bi,
+.email {
   width: 20px;
   height: 20px;
   text-decoration: none;
@@ -291,7 +292,7 @@ footer .social-media .bi-linkedin {
 
 .about-me h2 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 50px;
   font-weight: 400;
   text-align: left;
@@ -300,7 +301,7 @@ footer .social-media .bi-linkedin {
 
 .about-me p {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-align: left;
@@ -318,7 +319,7 @@ footer .social-media .bi-linkedin {
   border-radius: 1.75rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 0.800rem;
+  font-size: 0.8rem;
 }
 
 /* SECTION 02  */
@@ -335,12 +336,11 @@ footer .social-media .bi-linkedin {
 
 .edu-hobbies h2 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 48px;
   font-weight: 400;
   padding: 20px 40px 20px 40px;
 }
-
 
 /* ---------------------------EDUCATION PAGE----------------------------- */
 
@@ -378,7 +378,7 @@ footer .social-media .bi-linkedin {
 
 #ib h1 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 50px;
   font-weight: 400;
   text-align: left;
@@ -387,7 +387,7 @@ footer .social-media .bi-linkedin {
 
 #ib p {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-align: left;
@@ -402,7 +402,7 @@ footer .social-media .bi-linkedin {
 
 #ib-info h2 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   text-align: left;
@@ -412,7 +412,7 @@ footer .social-media .bi-linkedin {
 
 #ib-info p {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-align: left;
@@ -459,7 +459,7 @@ footer .social-media .bi-linkedin {
   max-width: 500px;
   display: inline-block;
   flex-wrap: wrap;
-  padding:  0 20px;
+  padding: 0 20px;
 }
 
 #volunt-img {
@@ -499,7 +499,7 @@ footer .social-media .bi-linkedin {
   max-width: 500px;
   display: inline-block;
   flex-wrap: wrap;
-  padding:  0 20px;
+  padding: 0 20px;
 }
 
 #drawing {
@@ -531,7 +531,7 @@ footer .social-media .bi-linkedin {
   max-width: 500px;
   display: inline-block;
   flex-wrap: wrap;
-  padding:  0 20px;
+  padding: 0 20px;
 }
 
 #poetry iframe {
@@ -546,7 +546,7 @@ footer .social-media .bi-linkedin {
 
 .more-hobbies h2 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 50px;
   font-weight: 400;
   text-align: left;
@@ -555,7 +555,7 @@ footer .social-media .bi-linkedin {
 
 .more-hobbies p {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-align: left;
@@ -578,7 +578,7 @@ body {
 
 #send-container h1 {
   color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 50px;
   font-weight: 400;
   text-align: left;
@@ -587,7 +587,7 @@ body {
 
 #send-container h5 {
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-align: left;
@@ -608,7 +608,7 @@ body {
   border-radius: 1.75rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 0.800rem;
+  font-size: 0.8rem;
   border-color: #f5fbff;
 }
 
