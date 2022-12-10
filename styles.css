@@ -14,45 +14,45 @@ body {
     margin: 0 auto !important;
 }
 .navbar-collapse {
-  position: relative;
+  position: relative !important;
 }
 
 .nav-item {
-  text-align: right;
+  text-align: right !important;
 }
 
 .home-nav-item {
-  padding: 12px 0 12px 0;
+  padding: 12px 0 12px 0 !important;
 }
 #home-nav-item {
   color: #101126;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 800;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
 }
 
 .about-nav-item {
-  padding: 12px 0 12px 64px;
+  padding: 12px 0 12px 64px !important;
 }
 #about-nav-item {
   color: #101126;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 800;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
 }
 
 .contact-nav-item {
-  padding: 12px 0 12px 64px;
+  padding: 12px 0 12px 64px !important;
 }
 #contact-nav-item {
-  color: #101126;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 800;
+  color: #101126 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
 }
 
 .mx-auto {
-  display: flex;
+  display: flex !important;
 }
 
 /* SECTION 01 */
