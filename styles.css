@@ -559,11 +559,10 @@ footer .social-media .bi-linkedin {
   text-align: left;
   padding-bottom: 20px;
 }
-/* ---------------------------CONNTACT PAGE----------------------------- */
+/* ---------------------------CONTACT PAGE----------------------------- */
 body {
-  background-color: #f5fbff !important;
+  background-color: #f5fbff;
 }
-
 #send-container {
   position: relative;
   width: 100%;
@@ -572,6 +571,7 @@ body {
   padding: 0 20px;
   flex-wrap: wrap;
   max-width: 1920px;
+  background-color: #f5fbff !important;
 }
 
 #send-container h1 {
@@ -607,6 +607,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.800rem;
+  border-color: black;
 }
 
 #contact-profile {
