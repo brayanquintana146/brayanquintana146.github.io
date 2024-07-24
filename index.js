@@ -1,3 +1,4 @@
+// SAY HELLO!
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,
@@ -15,7 +16,7 @@ function sendMail() {
       document.getElementById("email").value = "";
       document.getElementById("message").value = "";
       console.log(res);
-      alert("Your message was sent successfully!");
+      alert("Got it! I'll reach out to you soon!");
     })
     .catch((err) => console.log(err));
 }

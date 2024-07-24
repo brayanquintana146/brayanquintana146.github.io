@@ -10,7 +10,7 @@ body {
 .navbar {
   background-color: #f5fbff !important;
   padding: 20px 20px 20px 0 !important;
-  max-width: 1920px !important;
+  max-width: 1440px !important;
   margin: 0 auto !important;
 }
 .navbar-collapse {
@@ -63,7 +63,7 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 .bio span {
@@ -127,7 +127,7 @@ body {
   margin: 0 auto;
   padding: 0 0 100px 0;
   flex-wrap: wrap;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 #element1 {
@@ -180,7 +180,7 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 100px 40px;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 .phrase p {
@@ -218,7 +218,7 @@ footer {
   margin: 0 auto;
   padding: 40px 20px;
   flex-wrap: wrap;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 footer .foot-contact {
@@ -258,6 +258,20 @@ footer .social-media .bi-linkedin {
 /* ---------------------------ABOUT PAGE----------------------------- */
 
 /* SECTION 01 */
+
+
+.more-btn {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition property */
+}
+
+.more-btn:hover {
+  background-color: #4f4f4f; /* New background color on hover */
+}
+
 .about-me {
   background-color: #f5fbff;
   position: relative;
@@ -267,9 +281,10 @@ footer .social-media .bi-linkedin {
   justify-items: center;
   text-align: center;
   margin: 0 auto;
-  padding: 60px 0 20px 0;
+  padding: 30px 0 20px 0;
   flex-wrap: wrap;
-  max-width: 1920px;
+  max-width: 1440px;
+  
 }
 
 #education {
@@ -331,7 +346,7 @@ footer .social-media .bi-linkedin {
   text-align: center;
   margin: 0 auto;
   padding: 60px 0 80px 0;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 .edu-hobbies h2 {
@@ -342,9 +357,7 @@ footer .social-media .bi-linkedin {
   padding: 20px 40px 20px 40px;
 }
 
-/* ---------------------------EDUCATION PAGE----------------------------- */
-
-.more-education {
+.edu-orgs {
   background-color: #f5fbff;
   position: relative;
   width: 100%;
@@ -352,236 +365,81 @@ footer .social-media .bi-linkedin {
   justify-content: space-around;
   justify-items: center;
   text-align: center;
-  margin: 0 auto;
-  padding: 60px 0 20px 0;
+  margin: 0 0 100px 0px;
   flex-wrap: wrap;
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
-#ib {
-  position: relative;
-  text-align: left;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 0 20px 60px 20px;
+.edu-pic {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 8px;
+  margin: 20px 20px;
+  display: block;
+  object-fit: contain;
 }
 
-#ib-info {
-  position: relative;
-  text-align: left;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 20px 20px 20px 20px;
-}
 
-#ib h1 {
-  color: #000000;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-#ib p {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-.ib inframe {
-  padding: 0 20px;
-  border: none;
-  width: 100%;
-}
-
-#ib-info h2 {
-  color: #000000;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#ib-info p {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-/* ---------------------------HOBBIES PAGE----------------------------- */
-.more-hobbies {
-  background-color: #f5fbff;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  justify-items: center;
-  text-align: center;
-  margin: 0 auto;
-  padding: 60px 0 80px 0;
-  flex-wrap: wrap;
-  max-width: 1920px;
-}
-
-#volunteering {
-  background-color: #f5fbff;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  justify-items: center;
-  text-align: center;
-  align-items: center;
-  margin: 0 auto 40px auto;
-  padding: 0;
-  flex-wrap: wrap;
-  max-width: 1920px;
-}
-
-#volunteering img {
-  width: 350px;
-}
-
-#volunt-description {
-  position: relative;
-  text-align: left;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-#volunt-img {
-  position: relative;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-#poetry {
-  background-color: #f5fbff;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0;
-  flex-wrap: wrap;
-  max-width: 1920px;
-}
-
-#poetry-inframe {
-  position: relative;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 50px 20px;
-}
-
-#poetry-description {
-  position: relative;
-  text-align: left;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-#drawing {
-  background-color: #f5fbff;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0;
-  flex-wrap: wrap;
-  max-width: 1920px;
-}
-
-#drawing-description {
-  position: relative;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 50px 20px;
-}
-
-#drawing-img {
-  position: relative;
-  text-align: left;
-  max-width: 500px;
-  display: inline-block;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-#poetry iframe {
-  width: 100%;
-  padding: 0 40px 40px 40px;
-}
-
-#drawing img {
-  width: 500px;
-  padding: 0 20px;
-}
-
-.more-hobbies h2 {
-  color: #000000;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-.more-hobbies p {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  text-align: left;
-  padding-bottom: 20px;
-}
 /* ---------------------------CONTACT PAGE----------------------------- */
 body {
   background-color: #f5fbff;
 }
-#send-container {
+
+.container {
   position: relative;
-  width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0 20px 0;
   flex-wrap: wrap;
-  max-width: 1920px;
+  width: 100%;
+  background-color: #051520;
+}
+
+#send-container {
   background-color: #f5fbff !important;
 }
+
+.first-column {
+  max-width: 600px; 
+  width: 100%;
+  padding: 0 20px 20px 20px; 
+  background-color: #f5fbff; 
+  flex: 1;
+}
+
+.second-column {
+  display: inline-block;
+  padding: 80px 20px 20px 20px !important;
+  max-width: 500px;
+  background-color: #f5fbff;  
+  flex: 1;
+}
+
+.lofi {
+  max-width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Coloca los divs en columna */
+  }
+  .second-column {
+    padding-top: 20px !important; /* Ajusta el padding-top para pantallas pequeñas */
+    margin-top: 20px; /* Agrega un margen superior para separar los divs */
+  }
+}
+
 
 #send-container h1 {
   color: #000000;
   font-family: "Fira Sans", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -601,6 +459,7 @@ body {
   display: inline-flex;
   align-items: center;
   background: #000000;
+  background-color: #000000; /* Initial background color */
   color: white;
   text-decoration: none;
   padding: 0 1.75rem;
@@ -610,9 +469,17 @@ body {
   font-weight: 700;
   font-size: 0.8rem;
   border-color: #f5fbff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition property */
+}
+
+
+#btn-send:hover {
+  background-color: #4f4f4f; /* New background color on hover */
 }
 
 #contact-profile {
   width: 500px;
   padding: 0 20px;
 }
+
