@@ -341,8 +341,9 @@ footer .social-media .bi-linkedin {
 
 .edu-hobbies {
   background-color: #f5fbff;
-  display: grid;
-  justify-items: center;
+  display: flex; /* Cambiado a flex para mejor control de las columnas */
+  flex-direction: column;
+  align-items: center; 
   text-align: center;
   margin: 0 auto;
   padding: 60px 0 80px 0;
@@ -354,29 +355,28 @@ footer .social-media .bi-linkedin {
   font-family: "Fira Sans", sans-serif;
   font-size: 48px;
   font-weight: 400;
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px;
 }
 
 .edu-orgs {
   background-color: #f5fbff;
-  position: relative;
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  justify-items: center;
-  text-align: center;
-  margin: 0 0 100px 0px;
+  justify-content: center; /* CAMBIO CLAVE: Centra las fotos horizontalmente */
+  align-items: center;     /* Centra las fotos verticalmente entre sí */
   flex-wrap: wrap;
+  margin: 0 auto 100px auto; /* Centra el contenedor mismo */
   max-width: 1440px;
+  gap: 30px; /* Agrega un espacio uniforme entre las fotos sin depender solo de margins */
 }
 
 .edu-pic {
   max-width: 100px;
   max-height: 100px;
   border-radius: 8px;
-  margin: 20px 20px;
   display: block;
   object-fit: contain;
+  /* El margin ya no es estrictamente necesario si usas 'gap' en el padre */
 }
 
 
