@@ -362,12 +362,12 @@ footer .social-media .bi-linkedin {
   background-color: #f5fbff;
   width: 100%;
   display: flex;
-  justify-content: center; /* CAMBIO CLAVE: Centra las fotos horizontalmente */
-  align-items: center;     /* Centra las fotos verticalmente entre sí */
+  justify-content: center; 
+  align-items: center;     
   flex-wrap: wrap;
-  margin: 0 auto 100px auto; /* Centra el contenedor mismo */
+  margin: 0 auto 100px auto; 
   max-width: 1440px;
-  gap: 30px; /* Agrega un espacio uniforme entre las fotos sin depender solo de margins */
+  gap: 50px;
 }
 
 .edu-pic {
